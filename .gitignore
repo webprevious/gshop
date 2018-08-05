@@ -1,0 +1,17 @@
+# 传输到git上需要忽略的文件夹
+# 传输步骤1：将本文件夹初始化为本地git仓库git init然后git add *然后进行一次本地提交git commit -m "提交"
+# 传输步骤2：创建远程仓库会生成关联地址然后与本地仓库进行关联git remote add origin https://github.com/webprevious/gshop.git然后git push origin master提交
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
